@@ -1,6 +1,6 @@
 package LineComparison;
 
-public class Lineuc1 {
+public class Line {
 	
 		double distance(int x1,int y1,int x2,int y2)	
 		{
@@ -10,9 +10,9 @@ public class Lineuc1 {
 			     return dis;
 		}
 	public static void main(String[] args) {
-	Lineuc1 obj = new Lineuc1();
+	Line obj = new Line();
 	double ans = obj.distance(4,6,7,4);
-	System.out.println("distance between points is :"+ ans);
+	System.out.println("distance between points  :"+ ans);
 	}
 		}
 
