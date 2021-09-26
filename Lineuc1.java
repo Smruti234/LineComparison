@@ -1,20 +1,17 @@
 package LineComparison;
 
-public class Lineuc1 {
-	
-		double distance(int x1,int y1,int x2,int y2)	
+public class Lineu {
+		double distanceCal(int x1,int y1,int x2,int y2)	
 		{
 		
 		         double dis;	
-			     dis=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-			     return dis;
+			     dis=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1)); 	 	    	 	    
+	             return dis;  	         
 		}
 	public static void main(String[] args) {
-	Lineuc1 obj = new Lineuc1();
-	double ans = obj.distance(4,6,7,4);
-	System.out.println("distance between points is :"+ ans);
+	   Lineuc2 obj = new Lineuc2();
+	   Double line1=obj.distanceCal(1,1,1,1);
+	   Double line2=obj.distanceCal(2,4,3,2);
+	   System.out.println("line1 and line 2 are equal.True or False :" +line1.equals(line2));
 	}
-		}
-
-	
-
+	}
