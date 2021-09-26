@@ -1,6 +1,6 @@
 package LineComparison;
      
-      public class LineComp {
+      public class Line {
 		double distanceCal(int x1,int y1,int x2,int y2)	
 		{
 		
@@ -9,9 +9,9 @@ package LineComparison;
 	             return dis;  	         
 		}
 	public static void main(String[] args) {
-		LineCompuc3 obj = new LineCompuc3();
-	   Double line1=obj.distanceCal(1,1,1,1);
-	   Double line2=obj.distanceCal(1,1,1,1);
+		Line obj = new Line();
+	   Double line1=obj.distancecal(1,1,1,1);
+	   Double line2=obj.distancecal(1,1,1,1);
 	   if(Double.compare(line1,line2)==0)
 	   {
 		   System.out.println("Two lines are equal");
